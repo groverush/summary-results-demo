@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+@layer base {
+    :root {
+        --color-blue : 252deg 100% 67%;
+        --color-indigo : 241deg 81% 54%;
+        --circle-blue:256deg 72% 46%;
+        --circle-indigo:241deg 72% 46%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Reaction {
+    background-color: hsla(0, 100%, 67%, 0.3);
+}
+
+#Memory {
+    background-color: hsl(39, 100%, 56%, 0.3);
+}
+
+#Verbal {
+    background-color: hsl(166, 100%, 37%, 0.3);
+}
+
+#Visual {
+    background-color: hsl(234, 85%, 45%, 0.3);
+}
