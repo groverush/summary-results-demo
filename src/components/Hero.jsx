@@ -3,7 +3,7 @@ import { styles } from "../styles"
 const Hero = () => {
   return (
     <section
-      className={`${styles.gradients.backgroundGradient} h-[40%]  rounded-b-3xl md:rounded-3xl flex flex-col items-center gap-4 pt-2 md:h-[100%] md:w-[50%] md:pt-8`}
+      className={`${styles.gradients.backgroundGradient} rounded-b-3xl md:rounded-3xl flex flex-col items-center gap-4 py-3 md:h-[100%] md:w-[50%] md:pt-8`}
     >
       <h3 className="text-violet-200 text-md font-semibold md:text-lg">
         Your Result

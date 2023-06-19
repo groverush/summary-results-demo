@@ -1,8 +1,8 @@
 import Category from "./Category"
-import { styles } from "../styles"
+
 const Summary = () => {
   return (
-    <section className="flex flex-col  px-8 py-4 h-[50%] md:h-[100%] md:w-[50%]">
+    <section className="flex flex-col  px-8 py-4 md:w-[50%] ">
       <h3 className="font-bold text-gray-950">Summary</h3>
 
       <Category />
